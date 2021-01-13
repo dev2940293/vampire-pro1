@@ -1,0 +1,81 @@
+{
+    "auth_number": "S/00022/1",
+    "auth_renewal_number": 1,
+    "auth_type": 1,
+    "auth_issue_date": "2021-01-05",
+    "auth_expiry_date": "2021-02-10",
+    "auth_revoc_date": "0001-01-01",
+    "auth_priority": 1,
+    "authorising_officer": 21,
+    "request_officer": 22,
+    "ping_rate": "30 minutes",
+    "has_jiw": "N",
+    "jiw": "",
+    "target": "NSW",
+    "tel_appln_flag": "N",
+    "special_cond_flag": "N",
+    "grounds_for_request": "To be updated",
+    "ao_privacy_cons": "To be updated",
+    "ro_privacy_cons": "To be updated",
+    "gen_comments": "To be updated",
+    "operation": 1,
+    "monitorteam": 5,
+    "auth_offences": [
+        2,
+        3
+    ],
+    "authorisation_sd": [
+        {
+            "servicedevice_classifier": "SIM",
+            "servicedevice_identifier": "IMEI",
+            "servicedevice_uniqueid": "9000000000001",
+            "active_flag": "Y",
+            "servicedevice_comments": "To be updated",
+            "sd_carrier": [
+                {
+                    "carrier": 4,
+                    "carrier_notification_number": 1,
+                    "carrier_notified_tsmp": null,
+                    "afterhours_flag": "N",
+                    "activation_tsmp": null,
+                    "deactivation_tsmp": null
+                },
+                {
+                    "carrier": 3,
+                    "carrier_notification_number": 1,
+                    "carrier_notified_tsmp": "2021-01-11T18:10:17+11:00",
+                    "afterhours_flag": "Y",
+                    "activation_tsmp": null,
+                    "deactivation_tsmp": null
+                },
+                {
+                    "carrier": 1,
+                    "carrier_notification_number": 1,
+                    "carrier_notified_tsmp": "2021-01-11T18:07:08+11:00",
+                    "afterhours_flag": "Y",
+                    "activation_tsmp": null,
+                    "deactivation_tsmp": null
+                }
+            ]
+        }
+    ],  
+    "authorisation_comm": [
+        {
+            "active_flag": "Y",
+            "communication_date": "2021-01-11",
+            "communication_authoriser": 21,
+            "external_agency": 1,
+            "receiving_user": 21
+        }
+    ],
+    "authorisation_recicomm": [
+        {
+            "created_at": "2021-01-12T07:28:22.565430+11:00",
+            "updated_at": "2021-01-12T08:11:26.952676+11:00",
+            "recipient_type": "CO",
+            "secondary_recipient_type": null,
+            "recipient": 22,
+            "secondary_recipient": null
+        }
+    ]
+}
